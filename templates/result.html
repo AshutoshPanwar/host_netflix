@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Recommendations</title>
+		<link rel="stylesheet" href="../static/stylesheets/result.css" />
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="../static/stylesheets/logo.png"
+		/>
+	</head>
+	<body>
+		<div class="page">
+			<h1>Here are Some Recommendations......</h1>
+			{% for image in images %}
+			<a href="/moviepage/{{titles[loop.index0]}}"
+				><img src="{{image}}" width="250px" height="400px"
+			/></a>
+			{% endfor %}
+		</div>
+	</body>
+</html>

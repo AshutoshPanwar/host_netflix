@@ -1,0 +1,21 @@
+body {
+	background-image: radial-gradient(at center, #ffffff00, #010101d4),
+		url("../stylesheets/home-bg.jpg");
+	/* background-color: black; */
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h1 {
+	color: #db0000;
+	margin-bottom: 25px;
+	padding-bottom: 3%;
+	border-bottom: 2px solid #eee;
+}
+
+.page {
+	margin: 3.5% 0 0 2.5%;
+}
+
+.page img {
+	padding: 7px;
+}

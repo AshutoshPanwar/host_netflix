@@ -1,0 +1,154 @@
+/* Basic Styling */
+html,
+body {
+	height: 100%;
+	width: 100%;
+	/* margin: 1.25% 0 0 2.5%; */
+	margin: 0;
+	/* padding: 1%; */
+	font-family: "Roboto", sans-serif;
+	/* background-color: black; */
+	background-image: radial-gradient(at center, #ffffff00, #010101a3),
+		url("../stylesheets/home-bg.jpg");
+	height: 100%;
+	background-position: center;
+	/* background-repeat: no-repeat; */
+	background-size: cover;
+
+	color: white;
+}
+
+h1 {
+	padding-bottom: 2%;
+	border-bottom: 2px solid #db0000;
+	color: #dcdcdc;
+	padding: 2% 0;
+	margin: 0 2%;
+}
+
+.container {
+	max-width: 1200px;
+	margin-left: 2.5%;
+	padding: 15px;
+	display: flex;
+}
+
+.left-column {
+	width: 45%;
+	position: relative;
+}
+
+.right-column {
+	width: 55%;
+}
+
+.left-column img {
+	position: absolute;
+	left: 50;
+	top: 8%;
+	transition: all 0.3s ease;
+	border: 2px solid white;
+}
+
+p1 {
+	font-weight: bold;
+	margin-right: 7px;
+}
+
+.movie-description {
+	/* border-bottom: 1px solid #e1e8ee; */
+	/* margin-bottom: 20px; */
+}
+.movie-description span {
+	font-size: 15px;
+	font-weight: bolder;
+	color: white;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #9589898e;
+	padding: 1%;
+	border-radius: 50px;
+}
+.movie-description h2 {
+	font-weight: 500;
+	font-size: 52px;
+	color: #d73535;
+	letter-spacing: -2px;
+	margin: 4% 0;
+}
+.movie-description p {
+	font-size: 18px;
+	font-weight: 500;
+	color: #c3c3ce;
+	line-height: 24px;
+}
+
+.movie-details {
+	/* word-wrap: break-word; */
+	color: #8d8d99;
+	/* overflow-wrap: normal; */
+}
+
+.movie-details p1 {
+	/* color: #ffffff !; */
+}
+
+.movie-details span {
+	/* margin-bottom: 10%; */
+}
+
+h3 {
+	font-size: 30px;
+	margin: 0px;
+	color: #ffffff;
+}
+
+a {
+	background-color: #db0000;
+	color: white;
+	border-radius: 20px;
+	margin-top: 10% !important;
+	padding: 8px 80px;
+	text-decoration: none;
+}
+
+#min_block {
+	display: flex;
+	border-top: 1px solid #e1e8ee;
+	padding: 1.5% 0px;
+}
+
+#min_block span {
+	padding-right: 2%;
+}
+
+p1 {
+	color: #ffffff;
+}
+
+@media (max-width: 940px) {
+	.container {
+		flex-direction: column;
+		margin-top: 60px;
+	}
+
+	.left-column,
+	.right-column {
+		width: 100%;
+	}
+
+	.left-column img {
+		width: 300px;
+		right: 0;
+		top: -65px;
+		left: initial;
+	}
+}
+
+@media (max-width: 535px) {
+	.left-column img {
+		width: 220px;
+		top: -85px;
+	}
+}

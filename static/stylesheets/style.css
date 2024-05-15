@@ -1,0 +1,56 @@
+body {
+	background-image: radial-gradient(at center, #ffffff00, #0101019e),
+		url("../stylesheets/home-bg.jpg");
+
+	/* background-image: url("../stylesheets/home-bg.jpg"); */
+	background-size: cover;
+	color: white;
+	padding-top: 5px;
+}
+
+img {
+	width: 200px;
+	height: 40px;
+}
+
+.content {
+	text-align: center;
+}
+
+h1 {
+	padding-top: 150px;
+	color: #db0000;
+	font-size: 50px;
+}
+
+form p1 {
+	font-size: 20px;
+	/* font-weight: 900; */
+	color: white;
+	padding: 5px;
+}
+
+input {
+	padding: 10px 70px;
+	background-color: #db0000;
+	color: white;
+	border: 0;
+	border-radius: 50px;
+	cursor: pointer;
+	font-size: 17px;
+}
+
+#footer {
+	position: fixed;
+	padding: 10px 10px 0px 10px;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 601px) {
+	form {
+		padding-top: 10em;
+		padding: 100em;
+	}
+}
