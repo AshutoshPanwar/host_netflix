@@ -80,5 +80,5 @@ def movie_details(name):
     return render_template('moviepage.html', details = details_list[0])
 
 
-if __name__ == '__main__':
-    app.run(debug=False,host='0.0.0.0')
+# if __name__ == '__main__':
+#     app.run(debug=False,host='0.0.0.0')
